@@ -1,0 +1,45 @@
+#what.items {
+    display: block;
+}
+#what .items .item {
+    display: flex;
+    text-align: left;
+}
+#what .items .item {
+    margin-right: 1.3rem;
+    align-self: center;
+    /* margin-bottom: 0; */
+}
+/* smartphones */
+@media(max-width: 500px){
+   #navbar {
+    flex-direction: column;
+    align-items: center;
+   }
+   #navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+   }
+   #navbar ul {
+    padding: 0.5rem;
+   }
+   #wh0 {
+    display: block;
+   }
+   #who .who-img{
+    display: none;
+   }
+
+   #clients .items img {
+    width: 70%;
+    margin-left: 35%;
+   }
+   #contact{
+    display: block;
+   }
+   #contact .map {
+    height: 400px;
+   }
+
+}
+    
